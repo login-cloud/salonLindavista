@@ -86,7 +86,7 @@ body a:focus {
 }
 
 .w3_agile_logo h1 a {
-    font-size: 1.1em;
+    font-size: 1em;
     color: #fff;
     position: relative;
     text-decoration: none;
@@ -1234,7 +1234,7 @@ p.data {
 }
 
 .menu-bg {
-    background: url(../images/g5.jpg) no-repeat center;
+    background: url(../images/invitados.jpg) no-repeat center;
     background-size: cover;
     min-height: 271px;
     border-radius: 25px;
@@ -1474,7 +1474,7 @@ ul.footer-nav li a.active {
 
 .w3_agile-footer1.f1 h2 a {
     color: #fff;
-    font-size: 1.3em;
+    font-size: .9em;
 }
 
 .w3_agile-footer1 h5.f1 {
@@ -1492,7 +1492,7 @@ ul.footer-nav li a.active {
 ul.w3ls-footer-bottom-list li {
     list-style-type: none;
     margin: 0.5em 0;
-    text-transform: capitalize;
+
 }
 
 ul.w3ls-footer-bottom-list li a,
@@ -2952,3 +2952,20 @@ figure.w3l-service-hover:hover p {
 }
 
 /* -- //Responsive code -- */
+
+#primera{
+    width: 130px;
+}
+
+#segunda{
+    width: 200px;
+}
+
+#tercera{
+    width: 220px;
+}
+
+.horarios{
+    text-align: center;
+    font-size: 21px;
+}
