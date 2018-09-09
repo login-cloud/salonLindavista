@@ -86,12 +86,12 @@ body a:focus {
 }
 
 .w3_agile_logo h1 a {
-    font-size: 1em;
+    font-size: .95em;
     color: #fff;
     position: relative;
     text-decoration: none;
     font-family: 'Righteous', cursive;
-    text-transform: capitalize;
+   
 }
 
 .w3_agile_logo h1 a span {
@@ -318,7 +318,7 @@ body a:focus {
     word-spacing: 4px;
     letter-spacing: 1px;
     font-weight: 600;
-    text-transform: capitalize;
+    
 }
 
 .baner-info h3 span {
@@ -1256,7 +1256,7 @@ h3.agileits-title {
 ul.b-list {
     list-style-type: unset;
     color: #000;
-    text-transform: capitalize;
+    list-style: none;
 }
 
 .agile_service_bottom_grids {
@@ -1474,7 +1474,7 @@ ul.footer-nav li a.active {
 
 .w3_agile-footer1.f1 h2 a {
     color: #fff;
-    font-size: .9em;
+    font-size: .90em;
 }
 
 .w3_agile-footer1 h5.f1 {
@@ -1482,7 +1482,7 @@ ul.footer-nav li a.active {
 }
 
 .w3_agile-footer1 h5 {
-    text-transform: uppercase;
+    
     font-size: 1.1em;
     color: #e96147;
     font-weight: 600;
@@ -1492,7 +1492,7 @@ ul.footer-nav li a.active {
 ul.w3ls-footer-bottom-list li {
     list-style-type: none;
     margin: 0.5em 0;
-
+   
 }
 
 ul.w3ls-footer-bottom-list li a,
@@ -1847,7 +1847,7 @@ a.pa_italic:focus {
     margin: 0 0 1em 0;
     color: #fff;
     font-size: 1.8em;
-    text-transform: capitalize;
+    
     letter-spacing: 1px;
     font-weight: 600;
 }
@@ -2952,20 +2952,3 @@ figure.w3l-service-hover:hover p {
 }
 
 /* -- //Responsive code -- */
-
-#primera{
-    width: 130px;
-}
-
-#segunda{
-    width: 200px;
-}
-
-#tercera{
-    width: 220px;
-}
-
-.horarios{
-    text-align: center;
-    font-size: 21px;
-}
