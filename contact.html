@@ -1,40 +1,26 @@
+<!--Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
-    <title>PAQUETES</title>
-    <!-- for-mobile-apps -->
+    <title>Jardin de Eventos Sociales en Lindavista</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content=" Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-    <script type="application/x-javascript">
-        addEventListener("load", function() {
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Beverages Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+    SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+    <script>
+        addEventListener("load", function () {
             setTimeout(hideURLbar, 0);
         }, false);
 
         function hideURLbar() {
             window.scrollTo(0, 1);
         }
-
-    </script>
-    <!-- //for-mobile-apps -->
-    <link href="cssP/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="cssP/style.css" rel="stylesheet" type="text/css" media="all" />
-    <link rel="stylesheet" href="cssP/flexsliderP.css" type="text/css" media="screen" property="" />
-    <link href='cssP/simplelightbox.min.css' rel='stylesheet' type='text/css'>
-
-    <!-- js -->
-    <script type="text/javascript" src="jsP/jquery-2.1.4.min.js"></script>
-    <!-- //js -->
-    <!-- font-awesome icons -->
-    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
-
-    <!-- //font-awesome icons -->
-    <link href="//fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-
-
     </script>
     <!-- Custom Theme files -->
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
@@ -54,7 +40,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- web-fonts -->
     <link href="//fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400,500,600,700,800" rel="stylesheet">
-
+    <!-- //web-fonts -->
 </head>
 
 <body>
@@ -153,7 +139,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="contact-text-agileinfo">
                             <h4>Visitanos</h4>
                             <p>Direecion</p>
-                            <p>Colonia</p>No.
+                            <p>NColonia</p>No.
                         </div>
                         <div class="clearfix"></div>
                     </div>
@@ -233,6 +219,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <li>
                                     <a href="#">Paquete 3-</a>
                                 </li>
+                                
                             </ul>
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-4 inner-li">
@@ -249,7 +236,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="clearfix"></div>
                     </div>
                     <div class="col-md-3  w3_agile-footer1 f3">
-
                         <h5>Redes sociales</h5>
                         <ul class="footer-social-icons">
                             <li>
@@ -273,7 +259,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 </a>
                             </li>
                         </ul>
-
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -285,6 +270,81 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
         </div>
     </div>
+    <!-- //footer -->
+    <!-- banner slider -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/jquery.zoomslider.min.js"></script>
+    <!-- //banner slider -->
+    <!-- //gallery -->
+    <script src="js/jquery.tools.min.js"></script>
+    <script src="js/jquery.mobile.custom.min.js"></script>
+    <script src="js/jquery.cm-overlay.js"></script>
 
+    <script>
+        $(document).ready(function () {
+            $('.cm-overlay').cmOverlay();
+        });
+    </script>
+    <!-- //gallery -->
+    <!-- testimonials -->
+    <!-- required-js-files-->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo").owlCarousel({
+                items: 1,
+                lazyLoad: true,
+                autoPlay: false,
+                navigation: true,
+                navigationText: true,
+                pagination: true,
+            });
+        });
+    </script>
+    <!--//required-js-files-->
+    <!-- start-smooth-scrolling -->
+    <script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
 
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script>
+        $(document).ready(function () {
+            /*
+         var defaults = {
+             containerID: 'toTop', // fading element id
+             containerHoverID: 'toTopHover', // fading element hover id
+             scrollSpeed: 1200,
+             easingType: 'linear' 
+         };
+         */
 
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <script src="js/SmoothScroll.min.js"></script>
+    <!-- //smooth-scrolling-of-move-up -->
+    <!-- navigation  -->
+    <script src="js/main.js"></script>
+    <!-- //navigation -->
+    
+    <!-- Bootstrap core JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+</body>
+
+</html>
