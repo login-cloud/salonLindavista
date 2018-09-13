@@ -32,7 +32,7 @@ h6 {
 p {
     margin: 0;
     font-size: 1.15em;
-    color: #999;
+    color: #606470;
     line-height: 1.8em;
 }
 
@@ -647,7 +647,7 @@ div#about {
 .wthree-about h5 {
     margin: 2em 0 1.2em;
     font-size: 1.5em;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 1px;
     color: #000;
 }
