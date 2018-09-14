@@ -3,11 +3,14 @@
 body
 {
 
-	background:#ffffff;
+
 	margin: 0;
 }
 html, main
 {
+    background: url(../images/leon2.jpg) no-repeat center;
+    background-size: cover;
+
 
    font-size: 114%;
 }

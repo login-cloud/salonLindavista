@@ -623,7 +623,8 @@ h3.w3ls-title span {
 div#about {
     padding-top: 12em;
     position: relative;
-    background: #eee;
+    background: url(../images/leon.jpg) no-repeat center;
+    background-size: cover;
     padding-bottom: 4em;
 }
 
