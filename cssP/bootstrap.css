@@ -43,13 +43,7 @@ audio:not([controls]) {
 template {
   display: none;
 }
-a {
-  background-color: transparent;
-}
-a:active,
-a:hover {
-  outline: 0;
-}
+
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -199,20 +193,7 @@ th {
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
   }
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: "";
-  }
+
   pre,
   blockquote {
     border: 1px solid #999;
@@ -1100,20 +1081,7 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
-a {
-  color: #337ab7;
-  text-decoration: none;
-}
-a:hover,
-a:focus {
-  color: #23527c;
-  text-decoration: underline;
-}
-a:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
+
 figure {
   margin: 0;
 }
@@ -2758,6 +2726,22 @@ select[multiple].input-lg {
 select.form-group-lg .form-control {
   height: 46px;
   line-height: 46px;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+figure {
+  margin: 0;
 }
 textarea.form-group-lg .form-control,
 select[multiple].form-group-lg .form-control {
