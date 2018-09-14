@@ -1,24 +1,32 @@
 
-html, body{
-    font-size: 100%;
+
+body
+{
+
 	background:#ffffff;
 	margin: 0;
 }
+html, main
+{
+
+   font-size: 114%;
+}
+
 #pe
 {
+
 	margin:0;
 	font-size:14px;
 	font-family: 'Open Sans', sans-serif;
 }
 #t3, #t4
 {
+
+
 	font-family: 'Muli', sans-serif;
 	margin:0;
 }
-ul,label{
-	margin:0;
-	padding:0;
-}
+
 
 
 {
@@ -679,9 +687,7 @@ sup {
 	.team-w3lsgrids {
     margin-bottom: 2em;
 	}
-	.footer-nav li  {
-    font-size: 14px;
-	}
+
 	.footer-logo #t3 {
     font-size: 30px;
 	}
@@ -736,9 +742,7 @@ sup {
 	.agileits_w3layouts_banner_info p {
     font-size: 0.9em;
 	}
-	.footer-nav li  {
-    font-size: 15px;
-	}
+
 	.w3_agile_header {
     padding: 1.2em 4em 0 0em;
 	}
@@ -791,9 +795,7 @@ sup {
 	.testimonial {
     min-height: 921px;
 	}
-	.footer-nav li a {
-    font-size: 15px;
-	}
+
 	.w3_agileits_logo   {
     font-size: 1em;
 	}
@@ -859,7 +861,7 @@ sup {
 	.testimonial {
     min-height: 968px;
 	}
-	.wthree_banner_info_grid p {
+	.wthree_banner_info_grid #pe {
     letter-spacing: 1px;
 	}
 	.wthree_banner_info_grid #t3 {
@@ -886,11 +888,7 @@ sup {
     width: 29px;
     height: 29px;
 	}
-	.mobile-nav-button .mobile-nav-button__line {
-    width: 18px;
-    height: 2px;
-    margin: .2em auto;
-	}
+
 	.mobile-nav-button {
     margin: 1.6em 0em 0;
 	}
@@ -903,17 +901,17 @@ sup {
 	.footer-nav li  {
     font-size: 14px;
 	}
-	.menu1-left p, .menu1-left1 p, .menu3-left3 p {
+	.menu1-left #pe, .menu1-left1 #pe, .menu3-left3 #pe {
     font-size: 13px;
 	}
 	.w3l_banner_info {
     width: 86%;
 	}
-	.wthree_banner_info_grid p {
+	.wthree_banner_info_grid #pe {
     letter-spacing: 1px;
     font-size: 0.9em;
 	}
-	.copyright-agile p {
+	.copyright-agile #pe {
     font-size: 0.9em;
     letter-spacing: 1px;
 	}
@@ -921,5 +919,6 @@ sup {
     font-size: 22px;
 	}
 }
+
 /*-- /responsive design --*/
 
