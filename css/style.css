@@ -1246,7 +1246,7 @@ p.data {
 }
 
 .menu-bg {
-    background: url(../images/invitados.jpg) no-repeat center;
+    background: url(../images/imgG-31.jpg) no-repeat center;
     background-size: cover;
     min-height: 271px;
     border-radius: 25px;
@@ -1498,7 +1498,7 @@ ul.footer-nav li a.active {
 .w3_agile-footer1 h5 {
     
     font-size: 1.1em;
-    color: rgba(125, 0, 0, .79);
+    color: #f34949;
     font-weight: 600;
     margin: 0 0 1.5em;
 }
@@ -1527,7 +1527,7 @@ ul.footer-social-icons li {
 }
 
 .agileits_w3layouts-copyright p a {
-    color: rgba(125, 0, 0, .79);
+    color: #f34949;
 }
 
 .agileits_w3layouts-copyright p a:hover {
