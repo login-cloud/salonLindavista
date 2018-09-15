@@ -8,8 +8,8 @@ body
 }
 html, main
 {
-    background: url(../images/leon2.jpg) no-repeat center;
-    background-size: cover;
+    background: url(../images/dark_wood.png) repeat center;
+   
 
 
    font-size: 114%;
@@ -111,7 +111,7 @@ div#about {
 }
 .about-agileits-title #t3,.agile-heading #t3,.agileits-title #t3,.w3-contact-map #t3,.test-heading #t3,.menu-head #t3,.agileits-title-left #t3,.w3-order-heading #t3,.w3-team-title #t3{
 	font-size:3em;
-    color: #333;
+    color: #972e23;
     text-decoration: none;
     font-weight: 700;
     padding: 0;
@@ -122,7 +122,7 @@ div#about {
 	letter-spacing: 2px;
 }
 .about-agileits-title #t3 span,.agile-heading #t3 span,.agileits-title #t3 span,.w3-contact-map #t3 span,.test-heading #t3 span,.menu-head #t3 span,.agileits-title-left #t3 span,.w3-order-heading #t3 span,.w3-team-title #t3 span{
-    color: #f16121;
+    color: #fff;
 }
 .w3l-about-left {
     font-size: .9em;

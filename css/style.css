@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 
 body {
     margin: 0;
@@ -27,9 +27,17 @@ h6 {
 
 p {
     margin: 0;
-    font-size: 1.15em;
-    color: #606470;
+    font-size: 1.25em;
+    color: #fff;
     line-height: 1.8em;
+}
+
+#telefono{
+    color: #777;
+}
+
+#nosotrosContacto{
+    color: #000;
 }
 
 ul,
@@ -77,17 +85,20 @@ body a:focus {
 
 /*-- //bottom-to-top --*/
 
-.w3_agile_logo {
-    margin: 0;
+#imagenP{
+    margin-left: 5px;
 }
 
-.w3_agile_logo h1 a {
-    font-size: .95em;
-    color: #fff;
+#tituloP{
+    font-size: 2.8em;
+    /* color: #ea4c4c; */
+    color: rgba(125, 0, 0, .79);
     position: relative;
     text-decoration: none;
-    font-family: 'Righteous', cursive;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
    
+    
 }
 
 .w3_agile_logo h1 a span {
@@ -112,11 +123,13 @@ body a:focus {
 #m_nav_container {
     width: 100%;
     height: 80px;
-    background-color: #e96147;
+    font-weight: bold;
+    background: rgba(125, 0, 0, 1);
     position: fixed;
     display: none;
     top: 0px;
     left: 0;
+    
     z-index: 990 !important;
 }
 
@@ -151,7 +164,7 @@ body a:focus {
 
 .m_nav_item a {
     text-decoration: none;
-    color: #000;
+    color: #f9f9f9;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2px;
@@ -177,7 +190,7 @@ body a:focus {
 .m_nav_ham {
     width: 30px;
     height: 3px;
-    background: #e96147;
+    background: #7d0000;
     margin: 5px auto;
 }
 
@@ -383,7 +396,7 @@ a.w3_play_icon1:hover {
 
 .w3_agilits_banner_bootm {
     padding: 0;
-    background: url(../images/nav.jpg) no-repeat center;
+    background: url(../images/nav.png) repeat ;
 }
 
 .wthree_share_agile {
@@ -436,8 +449,8 @@ a.login.reg {
 }
 
 .wthree_agile_login ul li i {
-    color: #f4792c;
-    font-size: 1em;
+    color: #972e23;
+    font-size: 1.1em;
     padding-right: 7px;
 }
 
@@ -446,7 +459,7 @@ a.login.reg {
 }
 
 .wthree_agile_login ul li a:hover {
-    color: #f4792c;
+    color: #972e23;
     text-decoration: none;
 }
 
@@ -617,24 +630,24 @@ h3.w3ls-title {
 h3.w3ls-title span {
     font-weight: bold;
     font-size: 2em;
-    color: #d66047;
+    color:rgba(125, 0, 0, .79);
 }
 
 div#about {
     padding-top: 12em;
     position: relative;
-    background: url(http://colorfully.eu/wp-content/uploads/2013/01/lions-eye-black-cover.jpg) no-repeat center;
+    background: url(https://images4.alphacoders.com/200/200956.jpg) no-repeat center;
     background-size: cover;
     padding-bottom: 4em;
     
 }
 
 .w3ls-row.alert.wthree-about-right img {
-    border: 7px solid rgba(233, 97, 71, 0.63);
+    border: 7px solidrgba(125, 0, 0, .79);
 }
 
 .w3ls-row img {
-    border: 6px solid #e96147;
+    border: 6px solid rgba(125, 0, 0, .79);
 }
 
 .wthree-about-w3left,
@@ -1081,7 +1094,7 @@ a.fa.fa-twitter.icon.icon-border.twitter {
 }
 
 .test-review i {
-    color: #e96147;
+    color: rgba(125, 0, 0, .79);
     font-size: 2em;
     margin: 0 0.5em;
 }
@@ -1237,7 +1250,7 @@ p.data {
     background-size: cover;
     min-height: 271px;
     border-radius: 25px;
-    border: 10px solid #e96147;
+    border: 10px solid rgba(125, 0, 0, .79);
     min-height: 271px;
 }
 
@@ -1367,6 +1380,7 @@ h3.title-contact {
 .contact-left-w3ls {
     padding: 2em 1em;
     background: #eee;
+    margin-left: 300px;
 }
 
 .contact-form-w3l h3:before {
@@ -1484,7 +1498,7 @@ ul.footer-nav li a.active {
 .w3_agile-footer1 h5 {
     
     font-size: 1.1em;
-    color: #e96147;
+    color: rgba(125, 0, 0, .79);
     font-weight: 600;
     margin: 0 0 1.5em;
 }
@@ -1513,7 +1527,7 @@ ul.footer-social-icons li {
 }
 
 .agileits_w3layouts-copyright p a {
-    color: #e96147;
+    color: rgba(125, 0, 0, .79);
 }
 
 .agileits_w3layouts-copyright p a:hover {
@@ -1724,8 +1738,8 @@ h2.h3-w3l {
 /*-- panel --*/
 
 .panel-sec {
-    background: url(../images/nav.jpg) no-repeat center;
-    background-size: cover;
+    background: url(../images/navc.png) repeat ;
+  
 }
 
 .pa_italic i {
@@ -1772,7 +1786,7 @@ h2.h3-w3l {
 }
 
 .panel-title a {
-    background: #e96147;
+    background: rgba(125, 0, 0, .79);;
     color: #fff;
     text-decoration: none;
     display: block;
@@ -1845,20 +1859,23 @@ a.pa_italic:focus {
 
 .agile_timing_right h4 {
     margin: 0 0 1em 0;
-    color: #fff;
+    color: rgba(125, 0, 0, .79);
     font-size: 1.8em;
+    font-weight: 700;
     
     letter-spacing: 1px;
-    font-weight: 600;
+    
 }
 
 .agile_timing_right ul li {
     list-style-type: none;
     margin-bottom: 1em;
-    color: #eee;
+    color: #000;
     font-size: 1em;
     letter-spacing: 2px;
     word-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 35px;
 }
 
 li.wthree-time-title {
@@ -2015,7 +2032,7 @@ figure.w3l-service-hover:hover p {
 /* inner-bg */
 
 .contact-icon-wthree span {
-    color: #d66047;
+    color: #953232;
     font-size: 1.5em;
 }
 
@@ -2951,4 +2968,69 @@ figure.w3l-service-hover:hover p {
     }
 }
 
+#nosotros{
+    color: #fff;
+}
+
+#jardin{
+    color:rgba(125, 0, 0, .79);
+    font-size: 2em;
+}
+
+
 /* -- //Responsive code -- */
+
+
+
+@media only screen and (max-width: 650px) {
+    .contact-left-w3ls{
+        padding: 2em 1em;
+        background: #eee;
+        margin-left: 200px; 
+    }
+}
+
+@media only screen and (max-width: 515px) {
+    .contact-left-w3ls{
+        padding: 2em 1em;
+        background: #eee;
+        margin-left: 100px; 
+    }
+}
+
+@media only screen and (max-width: 476px) {
+    .contact-left-w3ls{
+        padding: 2em 1em;
+        background: #eee;
+        width: 250px;
+     
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .contact-left-w3ls{
+        padding: 2em 1em;
+        background: #eee;
+        width: 250px;
+        margin-left: 50px; 
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .contact-left-w3ls{
+        padding: 2em 1em;
+        background: #eee;
+        width: 250px;
+        margin-left: 30px; 
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .contact-left-w3ls{
+        padding: 2em 1em;
+        background: #eee;
+        width: 250px;
+        margin-left: 5px; 
+    }
+}
+
