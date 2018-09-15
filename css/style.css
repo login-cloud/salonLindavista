@@ -623,9 +623,10 @@ h3.w3ls-title span {
 div#about {
     padding-top: 12em;
     position: relative;
-    background: url(../images/leon.jpg) no-repeat center;
+    background: url(https://www.fondosanimales.com/1366x768/leon-hd.jpg) no-repeat center;
     background-size: cover;
     padding-bottom: 4em;
+    
 }
 
 .w3ls-row.alert.wthree-about-right img {
