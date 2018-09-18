@@ -2,12 +2,12 @@
 
 html, body{
 
-
+background: url(../images/dark_wood.png) repeat center;
 }
- .galeria
+ #gallery
 {
+background: url(../images/dark_wood.png) repeat center;
 
-background-color: #d05252;
 
 }
 /*-- banner --*/
